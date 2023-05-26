@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.cabeça{
+
+    
+background-color: rgb(22, 22, 139);
+padding: 50px;
+}
+main{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+    gap: 30px;
+}
+.logo{
+color: rgb(255, 255, 255);
+    font-size: 50px;
+    
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+.pergunta{
+    color: rgb(0, 0, 0);
+        font-size: 30px;
+        
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+.butoes{
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.porteiro{
+border: none;
+width: 500px;
+height: 100px;
+font-size: 60px;
+align-self: center;
+background-color: orange;
+border-radius: 100px;
+color: white;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.porteiro:hover{
+
+    width: 500px;
+    height: 100px;
+    font-size: 60px;
+    align-self: center;
+    background-color: rgb(172, 112, 1);
+    border-radius: 100px;
+    color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;       
+}
+    .motorista{
+
+        width: 500px;
+        border: none;
+        height: 100px;
+        font-size: 60px;
+        align-self: center;
+        background-color: orange;
+        border-radius: 100px;
+        color: white;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .motorista:hover{
+
+            width: 500px;
+            height: 100px;
+            font-size: 60px;
+            align-self: center;
+            background-color: rgb(172, 112, 1);
+            border-radius: 100px;
+            color: white;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        cursor: pointer;   
+        }
+        input{
+            color: white;
+        }
