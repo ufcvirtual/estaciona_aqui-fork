@@ -19,3 +19,8 @@ window.location.href="/Seleção de vagas/index.html";
 }
   
 }
+
+function voltar(){
+
+  window.location="/porteiro_morotirsta/escrita.html"
+}

@@ -6,6 +6,7 @@
     padding: 0px;
     margin: 0px;
 }
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 
@@ -14,8 +15,19 @@ body{
 header{
     background-color: rgb(22, 22, 139);
     padding: 50px;
+color: white;
+font-size: 30px;
 
+}
+.voltar{
 
+    color: white;
+}
+.voltar:hover{
+
+    color: orange;
+   
+    cursor: pointer;
 }
 label{
     font-size: 30px;

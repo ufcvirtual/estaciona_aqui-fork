@@ -9,6 +9,13 @@
 
 background-color: rgb(22, 22, 139);
 padding: 50px;
+ color: white;
+font-size: 60px;
+
+}
+.head:hover{
+    color: orange;
+    cursor: pointer;
 }
 main{
 
