@@ -1,8 +1,11 @@
-const express = require('express')
+const express = require('express');
 const app = express();
-const path =require('path')
+// const path =require('path');
 
 app.set('view engine','ejs');
+
+app.use(express.static("public"));
+app.use(express.json);
 
 //O problema do Css
 //Colocar o codigo  da tela no node js
@@ -11,13 +14,13 @@ app.set('view engine','ejs');
 //Organizar o node js nas routers-Pode ser resolvido no próxima acompanhamento
 app.get('/',(req,res) =>{
 
-    res.render('index')
+    res.render('selecao_de_vagas/index');
 
 } )
 
 
-app.listen('8000',function(){
-
-console.log("Servidor carregado")
+const server = app.listen("localhost","3000", ()=>{
+    
+    console.log(`"Servidor rodando em: ${server.adddress().address}`);
 
 })
